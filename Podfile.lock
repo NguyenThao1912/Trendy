@@ -1,0 +1,22 @@
+PODS:
+  - XMLMapper (2.0.0):
+    - XMLMapper/Core (= 2.0.0)
+  - XMLMapper/Core (2.0.0)
+  - youtube-ios-player-helper (1.0.3)
+
+DEPENDENCIES:
+  - XMLMapper
+  - youtube-ios-player-helper (~> 1.0.3)
+
+SPEC REPOS:
+  trunk:
+    - XMLMapper
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  XMLMapper: 45ff16367092620b0b4adbc5e42dd8db6ebb5e0d
+  youtube-ios-player-helper: 0185c57db23c80d63d6ca11251d110abb8a4ca61
+
+PODFILE CHECKSUM: 899a7053721aa12225b0dd884c774c4e998fd032
+
+COCOAPODS: 1.10.1

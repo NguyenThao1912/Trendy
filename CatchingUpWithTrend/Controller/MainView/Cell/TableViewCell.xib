@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="146" id="KGk-i7-Jjw" customClass="Trend_TV_Cell" customModule="CatchingUpWithTrend" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="570" height="133"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="570" height="133"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Rei-Lm-5Hp">
+                        <rect key="frame" x="5" y="5" width="560" height="123"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test IMG" translatesAutoresizingMaskIntoConstraints="NO" id="iNm-24-V48">
+                                <rect key="frame" x="0.0" y="13.666666666666671" width="96" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="iNm-24-V48" secondAttribute="height" multiplier="1:1" id="TX1-Xb-T6e"/>
+                                    <constraint firstAttribute="height" constant="96" id="hId-6b-oLy"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ftf-gJ-LHe">
+                                <rect key="frame" x="106" y="11.666666666666671" width="454" height="100"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="755" translatesAutoresizingMaskIntoConstraints="NO" id="HdM-UH-86R">
+                                        <rect key="frame" x="0.0" y="0.0" width="454" height="23"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalCompressionResistancePriority="755" text="Titlejfkjfladjsdfasdfadsfasdfasf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zD8-fb-XIM">
+                                                <rect key="frame" x="0.0" y="0.0" width="387" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="10 giờ trước" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EI5-B4-9yf">
+                                                <rect key="frame" x="387" y="0.0" width="67" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bze-Cw-eeY">
+                                        <rect key="frame" x="0.0" y="33" width="454" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="751" text="sdgasydguasygdsagduyagsduygsauydguad\\" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgP-Uu-eC7">
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMW-I1-TSH">
+                                                <rect key="frame" x="364" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="eMW-I1-TSH" secondAttribute="height" multiplier="1:1" id="p73-9T-Hvr"/>
+                                                </constraints>
+                                                <state key="normal" image="newspaper"/>
+                                                <connections>
+                                                    <action selector="DidTapNews:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6Mt-VW-mcs"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oN-mN-6ZT">
+                                                <rect key="frame" x="414" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="1oN-mN-6ZT" secondAttribute="height" multiplier="1:1" id="Wi7-6s-RW6"/>
+                                                    <constraint firstAttribute="height" constant="40" id="zwT-ss-qAr"/>
+                                                </constraints>
+                                                <state key="normal" image="youtube"/>
+                                                <connections>
+                                                    <action selector="DidTapYoutube:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="bfH-Jw-9rz"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fxD-Dw-QgM">
+                                        <rect key="frame" x="0.0" y="83" width="454" height="17"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Báo giao thông" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdX-Tv-8IH">
+                                                <rect key="frame" x="0.0" y="0.0" width="408.66666666666669" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20000+" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upH-bT-7aI">
+                                                <rect key="frame" x="408.66666666666663" y="0.0" width="45.333333333333314" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Rei-Lm-5Hp" secondAttribute="trailing" constant="5" id="7Mt-Vl-gfD"/>
+                    <constraint firstAttribute="bottom" secondItem="Rei-Lm-5Hp" secondAttribute="bottom" constant="5" id="cNq-tY-4ma"/>
+                    <constraint firstItem="Rei-Lm-5Hp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="djz-aB-gkZ"/>
+                    <constraint firstItem="Rei-Lm-5Hp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="gJc-dI-pjz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="trendAppoxTraffic" destination="upH-bT-7aI" id="W5l-Jg-uQd"/>
+                <outlet property="trendDescription" destination="RgP-Uu-eC7" id="jgb-7s-uAw"/>
+                <outlet property="trendIMG" destination="iNm-24-V48" id="4qP-6u-0T5"/>
+                <outlet property="trendPictureSource" destination="kdX-Tv-8IH" id="a9c-Yo-lmw"/>
+                <outlet property="trendPubdate" destination="EI5-B4-9yf" id="f7d-pW-7Is"/>
+                <outlet property="trendTitle" destination="zD8-fb-XIM" id="Bgz-M6-sR2"/>
+            </connections>
+            <point key="canvasLocation" x="378.26086956521743" y="78.013392857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="newspaper" width="32" height="32"/>
+        <image name="test IMG" width="720" height="720"/>
+        <image name="youtube" width="36" height="36"/>
+    </resources>
+</document>
